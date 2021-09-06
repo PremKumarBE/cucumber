@@ -11,7 +11,7 @@ import cucumber.api.junit.Cucumber;
 		glue=".\\src\\test\\java\\com\\telecom\\stepdefinition",
 		plugin="html:target",
 		monochrome = true,
-		dryRun = false,
+		dryRun =false,
 		tags ="@smoke"
 		)
 public class TestRunner {
