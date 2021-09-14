@@ -12,7 +12,8 @@ public class Commonactions {
 	public static WebDriver driver;
 	
 	public void launch(String url) {
-		    WebDriverManager.chromedriver().setup();
+		 WebDriverManager.chromedriver().setup();
+		   
 		    driver=new ChromeDriver();
 		    driver.get(url);
 		    driver.manage().window().maximize();
@@ -21,8 +22,9 @@ public class Commonactions {
 	public void insert(WebElement a,String b) {
 		a.sendKeys(b);
 	}
-	public void click(WebElement a) {
-		a.click();
+	public void click(WebElement d) {
+		d.click();
+		
 	}
 
 }

@@ -35,16 +35,18 @@ public class AddCustomerSteps extends Commonactions  {
 	@Given("user click on add customer button")
 	public void user_click_on_add_customer_button() {
 		//WebElement clk = driver.findElement(By.xpath("(//a[contains(text(),'Add Customer')])[1]"));
-		//a.click();
-		a.click(c.getAa());
+		//clk.click();
+		a.click(c.getLogin());
 		
 		
 	}
 
 	@When("user need to fill up the fields")
 	public void user_need_to_fill_up_the_fields() {
-		driver.findElement(By.xpath("//label[contains(text(),'Done')]")).click();
-		driver.findElement(By.xpath("//label[contains(text(),'Done')]")).click();
+		//driver.findElement(By.xpath("//label[contains(text(),'Done')]")).click();
+		//driver.findElement(By.xpath("//label[contains(text(),'Done')]")).click();
+		a.click(c.getDone());
+		
 		WebElement fname = driver.findElement(By.id("fname"));
 		a.insert(fname, "prem");  //sendkeys
 		

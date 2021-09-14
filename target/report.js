@@ -14,13 +14,18 @@ formatter.background({
   "description": "",
   "keyword": "Background"
 });
+formatter.before({
+  "status": "passed"
+});
 formatter.step({
   "name": "user click on add customer button",
   "keyword": "And "
 });
-formatter.match({});
+formatter.match({
+  "location": "AddCustomerSteps.user_click_on_add_customer_button()"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.scenario({
   "name": "add customer flow",
@@ -36,38 +41,53 @@ formatter.step({
   "name": "user need to fill up the fields",
   "keyword": "When "
 });
-formatter.match({});
+formatter.match({
+  "location": "AddCustomerSteps.user_need_to_fill_up_the_fields()"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
   "name": "user click on submit button",
   "keyword": "And "
 });
-formatter.match({});
+formatter.match({
+  "location": "AddCustomerSteps.user_click_on_submit_button()"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
   "name": "user verify customer id is generated",
   "keyword": "Then "
 });
-formatter.match({});
+formatter.match({
+  "location": "AddCustomerSteps.user_verify_customer_id_is_generated()"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
+});
+formatter.embedding("image/png", "embedded0.png");
+formatter.after({
+  "status": "passed"
 });
 formatter.background({
   "name": "",
   "description": "",
   "keyword": "Background"
 });
+formatter.before({
+  "status": "passed"
+});
 formatter.step({
   "name": "user click on add customer button",
   "keyword": "And "
 });
-formatter.match({});
+formatter.match({
+  "location": "AddCustomerSteps.user_click_on_add_customer_button()"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.scenario({
   "name": "add customer flow",
@@ -94,38 +114,53 @@ formatter.step({
   ],
   "keyword": "When "
 });
-formatter.match({});
+formatter.match({
+  "location": "AddCustomerSteps.user_need_to_fill_up_the_fields_D_List(Integer,DataTable)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
   "name": "user click on submit button",
   "keyword": "And "
 });
-formatter.match({});
+formatter.match({
+  "location": "AddCustomerSteps.user_click_on_submit_button()"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
   "name": "user verify customer id is generated",
   "keyword": "Then "
 });
-formatter.match({});
+formatter.match({
+  "location": "AddCustomerSteps.user_verify_customer_id_is_generated()"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
+});
+formatter.embedding("image/png", "embedded1.png");
+formatter.after({
+  "status": "passed"
 });
 formatter.background({
   "name": "",
   "description": "",
   "keyword": "Background"
 });
+formatter.before({
+  "status": "passed"
+});
 formatter.step({
   "name": "user click on add customer button",
   "keyword": "And "
 });
-formatter.match({});
+formatter.match({
+  "location": "AddCustomerSteps.user_click_on_add_customer_button()"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.scenario({
   "name": "add customer flow",
@@ -173,25 +208,35 @@ formatter.step({
   ],
   "keyword": "When "
 });
-formatter.match({});
+formatter.match({
+  "location": "AddCustomerSteps.user_need_to_fill_up_the_fields_D_Map(Integer,DataTable)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
   "name": "user click on submit button",
   "keyword": "And "
 });
-formatter.match({});
+formatter.match({
+  "location": "AddCustomerSteps.user_click_on_submit_button()"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
   "name": "user verify customer id is generated",
   "keyword": "Then "
 });
-formatter.match({});
+formatter.match({
+  "location": "AddCustomerSteps.user_verify_customer_id_is_generated()"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
+});
+formatter.embedding("image/png", "embedded2.png");
+formatter.after({
+  "status": "passed"
 });
 formatter.scenarioOutline({
   "name": "add customer flow",
@@ -249,13 +294,18 @@ formatter.background({
   "description": "",
   "keyword": "Background"
 });
+formatter.before({
+  "status": "passed"
+});
 formatter.step({
   "name": "user click on add customer button",
   "keyword": "And "
 });
-formatter.match({});
+formatter.match({
+  "location": "AddCustomerSteps.user_click_on_add_customer_button()"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.scenario({
   "name": "add customer flow",
@@ -271,38 +321,53 @@ formatter.step({
   "name": "user need to fill up the fields Scenario OUTLINE \"prem\",\"kumar\",\"prem@gmail.com\",\"pudukkoati\",\"987654\"",
   "keyword": "When "
 });
-formatter.match({});
+formatter.match({
+  "location": "AddCustomerSteps.user_need_to_fill_up_the_fields_Scenario_OUTLINE(String,String,String,String,String)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
   "name": "user click on submit button",
   "keyword": "And "
 });
-formatter.match({});
+formatter.match({
+  "location": "AddCustomerSteps.user_click_on_submit_button()"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
   "name": "user verify customer id is generated",
   "keyword": "Then "
 });
-formatter.match({});
+formatter.match({
+  "location": "AddCustomerSteps.user_verify_customer_id_is_generated()"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
+});
+formatter.embedding("image/png", "embedded3.png");
+formatter.after({
+  "status": "passed"
 });
 formatter.background({
   "name": "",
   "description": "",
   "keyword": "Background"
 });
+formatter.before({
+  "status": "passed"
+});
 formatter.step({
   "name": "user click on add customer button",
   "keyword": "And "
 });
-formatter.match({});
+formatter.match({
+  "location": "AddCustomerSteps.user_click_on_add_customer_button()"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.scenario({
   "name": "add customer flow",
@@ -318,24 +383,34 @@ formatter.step({
   "name": "user need to fill up the fields Scenario OUTLINE \"karthi\",\"Rajan\",\"kk@gmail.com\",\"chennai\",\"98765\"",
   "keyword": "When "
 });
-formatter.match({});
+formatter.match({
+  "location": "AddCustomerSteps.user_need_to_fill_up_the_fields_Scenario_OUTLINE(String,String,String,String,String)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
   "name": "user click on submit button",
   "keyword": "And "
 });
-formatter.match({});
+formatter.match({
+  "location": "AddCustomerSteps.user_click_on_submit_button()"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
   "name": "user verify customer id is generated",
   "keyword": "Then "
 });
-formatter.match({});
+formatter.match({
+  "location": "AddCustomerSteps.user_verify_customer_id_is_generated()"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
+});
+formatter.embedding("image/png", "embedded4.png");
+formatter.after({
+  "status": "passed"
 });
 });

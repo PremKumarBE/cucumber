@@ -12,13 +12,42 @@ public class AddCustomerpage extends Commonactions {
 	}
 	
 	@FindBy(xpath="(//a[contains(text(),'Add Customer')])[1]")
-	private WebElement aa;
-
-	public WebElement getAa() {
-		return aa;
+	private WebElement login;
+	@FindBy(xpath="//label[contains(text(),'Done')]")
+	private WebElement done;
+	public WebElement getLogin() {
+		return login;
+	}
+	public WebElement getDone() {
+		return done;
+	}
+	public WebElement getFname() {
+		return fname;
+	}
+	public WebElement getLname() {
+		return lname;
+	}
+	public WebElement getEmail() {
+		return email;
+	}
+	public WebElement getAddr() {
+		return addr;
+	}
+	public WebElement getTele() {
+		return tele;
 	}
 
-	public void setAa(WebElement aa) {
-		this.aa = aa;
-	}
+	@FindBy(id="fname")
+	private WebElement fname;
+	@FindBy(id="lname")
+	private WebElement lname;
+	@FindBy(id="email")
+	private WebElement email;
+	@FindBy(name="addr")
+	private WebElement addr;
+	@FindBy(id="telephoneno")
+	private WebElement tele;
 }
+	
+	
+	

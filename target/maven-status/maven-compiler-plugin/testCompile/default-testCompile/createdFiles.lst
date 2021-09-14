@@ -1,0 +1,7 @@
+com\telecom\resources\Commonactions.class
+com\telecom\objectrepository\AddTarifplanpage.class
+com\telecom\stepdefinition\TestRunner.class
+com\telecom\stepdefinition\Hooks.class
+com\telecom\objectrepository\AddCustomerpage.class
+com\telecom\stepdefinition\AddTarifplanSteps.class
+com\telecom\stepdefinition\AddCustomerSteps.class

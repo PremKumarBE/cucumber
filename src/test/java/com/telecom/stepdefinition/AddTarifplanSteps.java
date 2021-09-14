@@ -30,8 +30,9 @@ public void user_launch_telecom_application() {
 
 @Given("click Add traif")
 public void click_Add_traif() {
-	//driver.findElement(By.xpath("(//a[contains(text(),'Add ')])[3]")).click();
-	d.click(f.getAas());
+	driver.findElement(By.xpath("(//a[contains(text(),'Add ')])[3]")).click();
+	
+	
   
 }
 

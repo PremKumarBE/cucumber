@@ -8,8 +8,8 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		features=".//src//test//resources",
-		glue=".\\src\\test\\java\\com\\telecom\\stepdefinition",
-		plugin="html:target",
+		glue="com.telecom.stepdefinition",
+		plugin={"html:target","json:target/reports.json"},
 		monochrome = true,
 		dryRun =false,
 		tags ="@smoke"
